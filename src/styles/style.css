@@ -1,0 +1,56 @@
+body {
+	width: 415px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+img {
+	width: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: #147B8B;
+}
+
+.container {
+	width: 405px;
+}
+
+.searchSpace {
+	margin-top: 10px;
+}
+
+.reply {
+	width: 365px;
+	background-color: #F4F4F4;
+	float: right;
+	padding-left: 35px;
+	margin-right: 15px;
+}
+
+.topLevelComment {
+	width: 400px;
+	background-color: #E5E5E5;
+	margin-right: 15px;
+}
+
+.stickRight{
+	float: right;
+	margin-right: 20px;
+}
+
+.positive {
+	color: green;
+}
+
+.negative {
+	color: red;
+}
+
+.comment {
+	margin: 5px;
+	overflow-wrap: break-word;
+}

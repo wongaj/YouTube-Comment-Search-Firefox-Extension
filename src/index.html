@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="scripts/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<title>YouTube Comment Search</title>
+</head>
+<body>
+	<div class="container" id="searchPanel">
+		<div>
+			Search Comments
+		</div>
+		<input type="text" id="query">
+
+		<div class="searchSpace">
+			Order
+		</div>
+		<input type="radio" id="time" value="time" name="sort" checked>
+	    <label for="time">Newest</label>
+	    <input type="radio" id="relevance" value="relevance" name="sort">
+	    <label for="relevance">Relevant</label>
+
+		<div class="searchSpace">
+			Number of Results
+		</div>
+		<select id="maxResults">
+			<option value="10">10</option>
+			<option value="25">25</option>
+			<option value="50">50</option>
+			<option value="100">100</option>
+		</select> 
+
+		<div>
+			<button onclick="executeSearch()" id="searchBtn">Search</button> 			
+		</div>
+
+	</div>
+
+	<div id="title" class="searchSpace"></div>
+
+	<div id="display" class="searchSpace"></div>
+</body>
+</html>

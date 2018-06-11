@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "YouTube Comment Search",
+    "version": "1.0",
+
+    "description": "Search YouTube comments on current tab",
+    "permissions": [
+        "tabs",
+        "<all_urls>"
+    ],
+    "icons": {
+        "48": "src/images/logo-48.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "38": "src/images/logo-38.png"
+        },
+        "default_title": "YouTube Comment Search",
+        "default_popup": "src/index.html"
+    }
+}
